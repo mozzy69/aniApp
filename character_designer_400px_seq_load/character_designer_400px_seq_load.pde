@@ -77,8 +77,11 @@ float beadwidth=25;
 float beadheight=24;
 float beadcurve=4;
 float buttonheight=50;
+
+/* What is this??
 int width = int((beadwidth+beadcurve*2)*columns);
 int height = int(((beadheight+beadcurve*2)*rows)+buttonheight);
+*/
 
 float buttonwidth=width/colourlist.length;  
 float buttony =(beadheight+beadcurve*2)*rows+1;
